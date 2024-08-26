@@ -2,7 +2,6 @@
 /*                            External Dependencies                           */
 /* -------------------------------------------------------------------------- */
 import React, { useCallback, useEffect } from 'react';
-import PropTypes from 'prop-types';
 import styled, { css, createGlobalStyle } from 'styled-components';
 
 /* --------------------------- Image Dependencies --------------------------- */
@@ -26,7 +25,7 @@ interface ISideBarModal {
   };
 }
 /* ------------------------ SideBarModal defaultprops ----------------------- */
-const defaultProps: ISideBarModal = {
+const defaultProps: Partial<ISideBarModal> = {
   show: false,
   closeShow: () => {},
   size: 'md',
@@ -44,15 +43,15 @@ const SideBarModal: React.FC<ISideBarModal> = ({
     if (e.key === 'Escape') {
       closeShow();
     }
-  }, []);
+  }, [closeShow]);
 
   useEffect(() => {
     window.addEventListener('keydown', handleKeyPress);
-
     return () => {
       window.removeEventListener('keydown', handleKeyPress);
     };
-  }, []);
+  }, [handleKeyPress]);
+
   return (
     <>
       {show && data && (
@@ -92,7 +91,7 @@ const SideBarModal: React.FC<ISideBarModal> = ({
                   <p className="te mb-4">{data.description}</p>
                   <img src={data.imageUrl} alt={data.title} />
                   <h4>About</h4>
-                  <p>{data.about && data.about}</p>
+                  <p>{data.about}</p>
                   <h4>Technologies</h4>
 
                   {data.technologies && (
@@ -175,13 +174,16 @@ const generateSize = (size: ISideBarModal['size']) => {
       width: 29em;
       padding: 2rem;
     `;
+  return css``; // default case
 };
-const Body = createGlobalStyle`
 
-body{
-  overflow: hidden
-}`;
-const Wrapper = styled.div`
+const Body = createGlobalStyle`
+  body{
+    overflow: hidden;
+  }
+`;
+
+const Wrapper = styled.div<{ size?: ISideBarModal['size'] }>`
   .none-button {
     border: none;
     background: transparent;
@@ -203,7 +205,7 @@ const Wrapper = styled.div`
   }
   aside {
     background: var(--bg);
-    ${(props: { size: ISideBarModal['size'] }) => generateSize(props.size)}
+    ${(props) => generateSize(props.size)}
     @media (max-width: 768px) {
       width: 100% !important;
     }
@@ -310,15 +312,14 @@ const Wrapper = styled.div`
   }
 `;
 
-const Overlay = styled.div`
+const Overlay = styled.div<{ overlayColor?: string }>`
   z-index: 99999;
   position: fixed;
   height: 100%;
   width: 100%;
   top: 0;
   right: 0;
-  background: ${(props: { overlayColor?: string }) =>
-    props.overlayColor || 'rgba(0, 0, 0, 0.8)'};
+  background: ${(props) => props.overlayColor || 'rgba(0, 0, 0, 0.8)'};
 `;
 
 SideBarModal.defaultProps = defaultProps;

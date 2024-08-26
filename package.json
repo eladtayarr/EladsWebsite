@@ -1,8 +1,8 @@
 {
   "name": "eladtayar",
   "version": "0.1.0",
-  "private": false,
-  "repository": "git://github.com/eladtayarr/Resume-Website.git",
+  "private": true,
+  "repository": "git://github.com/eladtayarr/EladsWebsite.git",
   "description": "Elad Tayar's Website",
   "author": "Elad Tayar <eladt1010@gmail.com> (https://www.eladtayarr.com)",
   "scripts": {
