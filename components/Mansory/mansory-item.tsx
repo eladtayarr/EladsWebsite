@@ -3,7 +3,7 @@
 /* -------------------------------------------------------------------------- */
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { arrayRandomItem } from '../../eladtayar-helpers';
+import { arrayRandomItem } from '../../helpers/eladtayar-helpers';
 import { useRouter, withRouter } from 'next/router';
 /* -------------------------- Internal Dependencies ------------------------- */
 import Image from '../Image';
