@@ -76,6 +76,8 @@ const Resume = () => {
   );
 };
 
+
+
 const PageSection = styled.div`
   .intro__text {
     font-size: var(--font-x-lg);
