@@ -1,4 +1,4 @@
-// helpers/codewonders-helpers/index.ts
+// helpers/eladtayar-helpers/index.ts
 
 // Example helper function to return a random item from an array
 export function arrayRandomItem<T>(arr: T[]): T | undefined {
