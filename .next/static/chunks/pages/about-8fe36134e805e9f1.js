@@ -1,0 +1,86 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[521],{9212:function(e,a,n){(window.__NEXT_P=window.__NEXT_P||[]).push(["/about",function(){return n(400)}])},400:function(e,a,n){"use strict";n.r(a);var i=n(5893);n(7294);var r=n(1686),s=n(1664),t=n.n(s),o=n(1952),l=n(2118),c=n(7180);let d=r.ZP.div`
+  .intro__text {
+    font-size: var(--font-x-lg);
+    font-weight: 900;
+    margin: 4rem 0rem 1.5rem;
+    position: relative;
+  }
+  h4 {
+    font-size: calc(var(--font-md) + 1.5px);
+  }
+  p {
+    font-size: calc(var(--font-sm) + 0.9px);
+    margin-top: 0.6rem;
+    line-height: 2;
+    font-weight: 400;
+    color: var(--article-color) !important;
+  }
+
+  ul.timeline {
+    list-style-type: none;
+    position: relative;
+    &:before {
+      content: " ";
+      background: var(--timeline);
+      display: inline-block;
+      position: absolute;
+      left: 0px;
+      width: 1px;
+      top: 4px;
+      height: 100%;
+      z-index: 400;
+    }
+    li {
+      margin: 3rem 0;
+      padding-left: 20px;
+      &:before {
+        content: " ";
+        background: var(--mark);
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        border: 2px solid var(--cw);
+        left: -7px;
+        width: 15px;
+        height: 15px;
+        margin-top: 3px;
+        z-index: 400;
+      }
+      a {
+        font-size: var(--font-md);
+        font-weight: 500;
+
+        color: var(--cw);
+        &.float-right {
+          text-decoration: underline;
+          font-size: calc(var(--font-sm) + 0.9px);
+        }
+      }
+      a svg {
+        margin-top: -0.4rem;
+        width: 13px;
+      }
+    }
+  }
+  @media (max-width: 585px) {
+    ul.timeline li a {
+      display: block;
+      float: none !important;
+      margin-top: 5px;
+    }
+  }
+  @media (max-width: 989px) {
+    ul.timeline li a {
+      display: block;
+      float: none !important;
+      margin-top: 5px;
+    }
+  }
+  @media (max-width: 220px) {
+    ul.timeline li a {
+      display: block;
+      float: none !important;
+      margin-top: 5px;
+    }
+  }
+`;a.default=()=>(0,i.jsxs)(o.Z,{title:"About Me",children:[(0,i.jsxs)(d,{children:[(0,i.jsxs)(o.F,{className:"mb-5","aria-label":"You are now in my educational background section",children:[(0,i.jsx)("h1",{className:"intro__text",children:"About Me."})," ",(0,i.jsx)("br",{}),(0,i.jsxs)("article",{children:[(0,i.jsx)("h6",{children:"I'm Elad Tayar, a second-year Information Systems Management student at the College of Management Academic Studies. My studies combine Business Administration with a focus on application development, data analysis, and management. I've gained practical experience through an Honors Program with the University of Bremen, enhancing my skills in research and cross-cultural communication."}),(0,i.jsx)("h6",{children:"Technically skilled in tools like SAP ERP, Python, SQL, and more, I've also led teams and managed operations as a Shift Manager at Hugo Boss. My military service further sharpened my data management and leadership abilities. I'm eager to apply my skills in data analysis, development, and business management."}),(0,i.jsx)("br",{}),(0,i.jsxs)("ul",{className:"timeline",children:[(0,i.jsxs)("li",{className:"mt-2",children:[(0,i.jsxs)("a",{target:"_blank",rel:"noopener noreferrer","aria-label":"Open College Website Link",href:"https://english.colman.ac.il/",children:["Student of Information Systems Management"," "]}),(0,i.jsx)("a",{target:"_blank",rel:"noopener noreferrer","aria-label":"Open College website Link",id:"cardHover",href:"https://intl.colman.ac.il/",className:"float-right",children:"View College website"}),(0,i.jsx)("p",{children:"The Bachelor's degree in Information Systems Management (ISM) is a dual-major program that integrates technological expertise with managerial knowledge, preparing graduates for a variety of roles in the rapidly evolving digital job market. The curriculum offers hands-on experience through practical courses, industry collaborations, and a year-long practicum, where students tackle real-world challenges. With a strong foundation in programming, AI, data analysis, and business management, graduates are well-equipped for careers in fields such as software development, data analysis, and business intelligence, making them highly sought after in industries like high-tech, finance, and telecommunications."})]}),(0,i.jsxs)("li",{children:[(0,i.jsxs)("a",{target:"_blank",rel:"noopener noreferrer","aria-label":"Open Design Link",href:"/projects",children:["Programing"," ",(0,i.jsx)("small",{children:(0,i.jsx)(c.K3,{})})]}),(0,i.jsx)("a",{target:"_blank",rel:"noopener noreferrer","aria-label":"Open Design Link",id:"cardHover",href:"/projects",className:"float-right",children:"View Projects"}),(0,i.jsxs)("p",{children:["My programming education was diverse and multifaceted. During my academic studies, I was introduced to various programming languages, which sparked my interest in the field, particularly in databases and development. Throughout my degree, I gained experience with languages such as Python, Java, Web Development (HTML/CSS/JS), and SQL.",(0,i.jsx)("br",{}),(0,i.jsx)("br",{}),"Simultaneously, I pursued independent studies to deepen my understanding, driven by my passion for programming. I explored libraries like React, NumPy, and Flask in Python, and I learned about developing dynamic web pages as well as performing static calculations, which further expanded my knowledge.",(0,i.jsx)("br",{}),(0,i.jsx)("br",{}),"Additionally, I have a strong affinity for design, and programming allows me to better express my creativity. This connection enables me to tailor the products I develop to reflect my personal vision and preferences."]})]}),(0,i.jsxs)("li",{children:[(0,i.jsxs)("a",{target:"_blank",rel:"noopener noreferrer","aria-label":"Open Design Link",href:"/projects",children:["Data Analysis"," "]}),(0,i.jsx)("a",{target:"_blank",rel:"noopener noreferrer","aria-label":"Open Design Link",id:"cardHover",href:"/projects",className:"float-right",children:"View Projects"}),(0,i.jsxs)("p",{children:["I am a passionate data analyst with a strong foundation in both technical and analytical skills, honed through a combination of academic studies and hands-on experience. My background includes extensive work with data collection, cleaning, and analysis using a variety of tools and programming languages, such as Python, SQL, and Excel. I have a keen eye for detail and a deep understanding of statistical methods, which allows me to uncover insights and trends from complex datasets.",(0,i.jsx)("br",{}),(0,i.jsx)("br",{}),"Throughout my academic career, I have developed a proficiency in using data visualization tools, such as Tableau and Power BI, to present data-driven insights in a clear and compelling manner. My ability to transform raw data into actionable insights has supported decision-making processes and driven business strategies. Additionally, I have experience working on projects that involve big data analytics, predictive modeling, and machine learning, further enhancing my analytical capabilities.",(0,i.jsx)("br",{}),(0,i.jsx)("br",{}),"My approach to data analysis is both methodical and creative, combining technical expertise with a deep curiosity to solve problems and optimize processes. I am committed to continuous learning and staying updated with the latest industry trends and tools, ensuring that my skills remain relevant and impactful in the ever-evolving field of data analysis."]})]})]})]})]}),(0,i.jsx)(o.F,{className:"mb-5","aria-label":"You are now in my musical playlist section",children:(0,i.jsxs)("article",{children:[(0,i.jsx)("h4",{children:"My Reads."}),(0,i.jsxs)("ul",{className:"timeline",children:[(0,i.jsxs)("li",{children:[(0,i.jsxs)("a",{target:"_blank",rel:"noopener noreferrer",id:"cardHover","aria-label":"Open Human Centered Design 101",href:"https://www.plusacumen.org/courses/introduction-human-centered-design",children:["B.A. Information Systems Management ",(0,i.jsx)("small",{children:"The College of Management Academic Studies"})]}),(0,i.jsxs)("a",{className:"float-right",tabIndex:-1,children:[(0,i.jsx)(c.Ej,{})," ",(0,i.jsx)("b",{children:"2022 - Today"})]}),(0,i.jsxs)("p",{children:["▸ \xa0\xa0\xa0Secound Year Student of Dual-Major in Information Systems Management.",(0,i.jsx)("br",{}),"▸ \xa0\xa0\xa0GPA: 89",(0,i.jsx)("br",{}),"▸ \xa0\xa0\xa0Focused on application development, data structures, algorithms, and data analysis. Additionally, the degree courses focus on management, accounting, statistics, finance, economics, etc."]})]}),(0,i.jsxs)("li",{children:[(0,i.jsxs)(t(),{href:"/projects","aria-label":"Open Products Page",children:["Honors Program"," ",(0,i.jsx)("small",{children:(0,i.jsx)(c.xs,{})})]}),(0,i.jsxs)("a",{className:"float-right",tabIndex:-1,children:[(0,i.jsx)(c.Ej,{})," ",(0,i.jsx)("b",{children:"Feb-Jul 2024"})]}),(0,i.jsxs)("p",{children:["During my second year, I participated in the honors program for high-achieving students, which exposed me to academic research and international collaboration. Our research, in partnership with HHN University in Germany, focused on the impact of uncertainty, variation, and diversity in large organizations, using XMCyber as a case study. I was responsible for designing the questionnaire, organizing interview data, and presenting our findings. Our work received a score of 90 and excellent feedback from the program's professors.",(0,i.jsx)(t(),{href:"/projects","aria-label":"Open Products Page",id:"cardHover",className:"float-right",children:"View The Project"})]})]}),(0,i.jsxs)("li",{children:[(0,i.jsxs)("a",{target:"_blank",rel:"noopener noreferrer",id:"cardHover","aria-label":"Open Link Hugo Boss",href:"https://www.hugoboss.com/",children:["Sales & Shift Manager ",(0,i.jsx)("small",{children:"Hugo Boss"})]}),(0,i.jsxs)("a",{className:"float-right",tabIndex:-1,children:[(0,i.jsx)(c.Ej,{})," ",(0,i.jsx)("b",{children:"2019 - 2022"})]}),(0,i.jsxs)("p",{children:["As a Shift Manager at Hugo Boss, I was instrumental in driving the store's success by consistently meeting and exceeding sales targets, earning the highest performance statistics in the network. My strong leadership skills led to a promotion to Shift Manager after just a year and a half, where I took on greater responsibilities in managing store operations and leading a dynamic team.",(0,i.jsx)("br",{}),(0,i.jsx)("br",{}),"In this role, I was responsible for overseeing daily operations, coordinating and managing the shift team, and ensuring that inventory levels were adequately maintained through precise orders. I also handled financial management tasks, ensuring accurate cash handling and sales reconciliation, and maintained continuous communication with senior management to align store activities with company goals.",(0,i.jsx)("br",{}),(0,i.jsx)("br",{}),"A key aspect of my role involved working closely with both senior management and store staff, particularly during inventory counts and store organization efforts. My ability to foster teamwork and ensure smooth operational processes contributed significantly to the store's overall performance and customer satisfaction."]})]}),(0,i.jsxs)("li",{children:[(0,i.jsxs)("a",{target:"_blank",rel:"noopener noreferrer",id:"cardHover","aria-label":"Open Link Adaptive Leadership",href:"https://www.edx.org/course/adaptive-leadership-in-development",children:["Information Systems NCO ",(0,i.jsx)("small",{children:"Israel Defense Forces"})]}),(0,i.jsxs)("a",{className:"float-right",tabIndex:-1,children:[(0,i.jsx)(c.Ej,{})," ",(0,i.jsx)("b",{children:"2017 - 2019"})]}),(0,i.jsxs)("p",{children:["During my military service in the Israel Defense Forces (IDF), I served as an Information Systems Non-Commissioned Officer (NCO) within the Human Resources Branch. Initially responsible for welfare tasks, such as managing housing for lone soldiers and administering special allowances, I was later promoted to the office of the Head of the Personnel Directorate to focus on information systems management.",(0,i.jsx)("br",{}),(0,i.jsx)("br",{}),'In this role, I had access to classified military data, where I was responsible for generating transactions, creating reports, and conducting data analysis. I worked extensively with SAP ERP and the "Discoverer" system to automate report generation and manage data effectively. My role required significant interaction with senior military personnel, contributing to various high-impact projects, including the Stars Project, which provided financial assistance to IDF soldiers.',(0,i.jsx)("br",{}),(0,i.jsx)("br",{}),"This experience honed my technical skills in data management, report generation, and system maintenance, while also enhancing my ability to work under pressure and maintain strict confidentiality with sensitive information."," "]})]})]})]})}),(0,i.jsx)(o.F,{className:"mb-5","aria-label":"You are now in my musical playlist section",children:(0,i.jsxs)("article",{children:[(0,i.jsx)("h4",{children:"My Skills."}),(0,i.jsxs)("ul",{className:"timeline",children:[(0,i.jsxs)("li",{children:[(0,i.jsxs)("a",{target:"_blank",rel:"noopener noreferrer","aria-label":"Open Design Link",href:"/projects",children:["Collaborative and Teamwork"," "]}),(0,i.jsx)("a",{target:"_blank",rel:"noopener noreferrer","aria-label":"Open Design Link",id:"cardHover",href:"/projects",className:"float-right",children:"View Projects"}),(0,i.jsx)("p",{children:"I excel in collaborative environments, valuing open communication and mutual respect. My experience in diverse teams has taught me the importance of contributing my strengths while supporting others. Whether leading initiatives or being a reliable team member, I focus on fostering innovation and delivering high-quality results. I thrive under pressure, remain proactive, and am committed to creating a positive, inclusive atmosphere where ideas can flourish."})]}),(0,i.jsxs)("li",{children:[(0,i.jsxs)("a",{target:"_blank",rel:"noopener noreferrer","aria-label":"Open Link",href:"https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS",children:["Chill Lofi Study Beats ",(0,i.jsx)("small",{children:"Spotify"})]}),(0,i.jsx)("a",{target:"_blank",rel:"noopener noreferrer","aria-label":"Open Link",id:"cardHover",href:"https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS",className:"float-right",children:"View Playlist"}),(0,i.jsx)("p",{children:"The perfect study beats, twenty four seven. with over 178 SONGS"})]}),(0,i.jsxs)("li",{children:[(0,i.jsxs)("a",{target:"_blank",rel:"noopener noreferrer","aria-label":"Open Link",href:"https://open.spotify.com/playlist/37i9dQZF1DWUACcBjzMiIY?si=KbZW7Cz1TpaABPXV_fH4-A",children:["Mellow Drive ",(0,i.jsx)("small",{children:"Spotify"})]}),(0,i.jsx)("a",{target:"_blank",rel:"noopener noreferrer","aria-label":"Open Link",id:"cardHover",href:"https://open.spotify.com/playlist/37i9dQZF1DWUACcBjzMiIY?si=KbZW7Cz1TpaABPXV_fH4-A",className:"float-right",children:"View Playlist"}),(0,i.jsx)("p",{children:"Easy listening for pleasant drive"})]}),(0,i.jsxs)("li",{children:[(0,i.jsxs)("a",{target:"_blank",rel:"noopener noreferrer","aria-label":"Open Link",href:"https://open.spotify.com/playlist/37i9dQZF1DX6PKX5dyBKeq?si=jRd8iiIER260sRzE6ZV44g",children:["Rap UK ",(0,i.jsx)("small",{children:"Spotify"})]}),(0,i.jsx)("a",{target:"_blank",rel:"noopener noreferrer","aria-label":"Open Link",id:"cardHover",href:"https://open.spotify.com/playlist/37i9dQZF1DX6PKX5dyBKeq?si=jRd8iiIER260sRzE6ZV44g",className:"float-right",children:"View Playlist"}),(0,i.jsx)("p",{children:"One of the finest rap in UK. Cover: Aitch"})]}),(0,i.jsxs)("li",{children:[(0,i.jsxs)("a",{target:"_blank",rel:"noopener noreferrer","aria-label":"Open Link",href:"https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0?si=wF0gpf3RRa-2oT1GYTBQ_w",children:["Mood Booster \uD83C\uDF85\uD83C\uDFFD ",(0,i.jsx)("small",{children:"Spotify"})]}),(0,i.jsx)("a",{target:"_blank",rel:"noopener noreferrer","aria-label":"Open Link",id:"cardHover",href:"https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0?si=wF0gpf3RRa-2oT1GYTBQ_w",className:"float-right",children:"View Playlist"}),(0,i.jsx)("p",{children:"Get happy with today's dose of feel-good songs!"})]})]})]})}),(0,i.jsx)(o.F,{"aria-label":"You are now in lens section",children:(0,i.jsxs)("article",{children:[(0,i.jsx)("h4",{children:"My Photochromic Lens."}),(0,i.jsx)("ul",{className:"timeline",children:(0,i.jsxs)("li",{children:[(0,i.jsxs)(t(),{href:"/lens",children:["Adenekan's Collection. ",(0,i.jsx)("small",{children:"\xa9Adenekan"})]}),(0,i.jsx)(t(),{href:"/lens",className:"float-right",id:"cardHover",children:"Visit Page"}),(0,i.jsx)("p",{children:"This is an intensive, curation of the photochromic lenses that standout and the ones that i personally love, NOTE this is just by preference actually."})]})})]})})]}),(0,i.jsxs)(o.F,{children:[(0,i.jsx)(l.Z,{goto:"/projects",className:"mt-3 mb-5",children:"Lets Continue To Projects"}),(0,i.jsx)("br",{})]})]})}},function(e){e.O(0,[980,263,888,774,179],function(){return e(e.s=9212)}),_N_E=e.O()}]);
