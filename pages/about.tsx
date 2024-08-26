@@ -253,7 +253,6 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Open Design Link"
-                  href="/projects"
                 >
                   Collaborative and Teamwork{" "}
                 </a>
@@ -262,10 +261,8 @@ const About = () => {
                   rel="noopener noreferrer"
                   aria-label="Open Design Link"
                   id="cardHover"
-                  href="/projects"
                   className="float-right"
                 >
-                  View Projects
                 </a>
                 <p>
                 I excel in collaborative environments, valuing open communication and mutual respect. My experience in diverse teams has taught me the importance of contributing my strengths while supporting others. Whether leading initiatives or being a reliable team member, I focus on fostering innovation and delivering high-quality results. I thrive under pressure, remain proactive, and am committed to creating a positive, inclusive atmosphere where ideas can flourish.
@@ -276,116 +273,36 @@ const About = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS"
+                  aria-label="Open Design Link"
                 >
-                  Chill Lofi Study Beats <small>Spotify</small>
+                  Technical Aptitude{" "}
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open Link"
+                  aria-label="Open Design Link"
                   id="cardHover"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS"
                   className="float-right"
                 >
-                  View Playlist
                 </a>
                 <p>
-                  The perfect study beats, twenty four seven. with over 178
-                  SONGS
-                </p>
-              </li>
-
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DWUACcBjzMiIY?si=KbZW7Cz1TpaABPXV_fH4-A"
-                >
-                  Mellow Drive <small>Spotify</small>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  id="cardHover"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DWUACcBjzMiIY?si=KbZW7Cz1TpaABPXV_fH4-A"
-                  className="float-right"
-                >
-                  View Playlist
-                </a>
-                <p>Easy listening for pleasant drive</p>
-              </li>
-
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX6PKX5dyBKeq?si=jRd8iiIER260sRzE6ZV44g"
-                >
-                  Rap UK <small>Spotify</small>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  id="cardHover"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX6PKX5dyBKeq?si=jRd8iiIER260sRzE6ZV44g"
-                  className="float-right"
-                >
-                  View Playlist
-                </a>
-                <p>One of the finest rap in UK. Cover: Aitch</p>
-              </li>
-
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0?si=wF0gpf3RRa-2oT1GYTBQ_w"
-                >
-                  Mood Booster 🎅🏽 <small>Spotify</small>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  id="cardHover"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0?si=wF0gpf3RRa-2oT1GYTBQ_w"
-                  className="float-right"
-                >
-                  View Playlist
-                </a>
-                <p>Get happy with today's dose of feel-good songs!</p>
-              </li>
-            </ul>
-          </article>
-        </PageWrapper>
-
-        <PageWrapper aria-label="You are now in lens section">
-          <article>
-            <h4>My Photochromic Lens.</h4>
-            <ul className="timeline">
-              <li>
-                <Link href="/lens">
-                  Adenekan's Collection. <small>©Adenekan</small>
-                </Link>
-                <Link href="/lens" className="float-right" id="cardHover">
-                  Visit Page
-                </Link>
-                <p>
-                  This is an intensive, curation of the photochromic lenses that
-                  standout and the ones that i personally love, NOTE this is
-                  just by preference actually.
+                I have a strong technical background across multiple domains:
+                <br></br>
+                •&nbsp&nbsp&nbspSAP ERP: Skilled in report generation, transaction creation, and system maintenance.<br></br>
+                •&nbsp&nbsp&nbspExcel: Advanced use of functions, Pivot tables, and data integration.<br></br>
+                •&nbsp&nbsp&nbspPython: Proficient in data manipulation, OOP, API integration, and database operations.<br></br>
+                •&nbsp&nbsp&nbspSQL Server: Experienced in database management, query writing, and data modeling.<br></br>
+                •&nbsp&nbsp&nbspWeb Development: Knowledgeable in HTML, CSS, JavaScript, and React for building dynamic, accessible websites.<br></br>
+                •&nbsp&nbsp&nbspJava: Basic syntax and command writing.<br></br>
+                <br></br>
+                My technical skills are paired with strong problem-solving abilities to deliver effective solutions.
                 </p>
               </li>
             </ul>
           </article>
         </PageWrapper>
+
+        
       </PageSection>
 
       <PageWrapper>
