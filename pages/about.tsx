@@ -248,7 +248,37 @@ const About = () => {
           <article>
             <h4>My Skills.</h4>
             <ul className="timeline">
-            <li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Design Link"
+                >
+                  Technical Aptitude{" "}
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Design Link"
+                  id="cardHover"
+                  className="float-right"
+                >
+                </a>
+                <p>
+                I have a strong technical background across multiple domains:
+                <br></br>
+                •&nbsp;&nbsp;&nbsp;SAP ERP: Skilled in report generation, transaction creation, and system maintenance.<br></br>
+                •&nbsp;&nbsp;&nbsp;Excel: Advanced use of functions, Pivot tables, and data integration.<br></br>
+                •&nbsp;&nbsp;&nbsp;Python: Proficient in data manipulation, OOP, API integration, and database operations.<br></br>
+                •&nbsp;&nbsp;&nbsp;SQL Server: Experienced in database management, query writing, and data modeling.<br></br>
+                •&nbsp;&nbsp;&nbsp;Web Development: Knowledgeable in HTML, CSS, JavaScript, and React for building dynamic, accessible websites.<br></br>
+                •&nbsp;&nbsp;&nbsp;Java: Basic syntax and command writing.<br></br>
+                <br></br>
+                My technical skills are paired with strong problem-solving abilities to deliver effective solutions.
+                </p>
+              </li>
+
+              <li>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -275,7 +305,7 @@ const About = () => {
                   rel="noopener noreferrer"
                   aria-label="Open Design Link"
                 >
-                  Technical Aptitude{" "}
+                  Time Management & Problem Solving{" "}
                 </a>
                 <a
                   target="_blank"
@@ -286,16 +316,7 @@ const About = () => {
                 >
                 </a>
                 <p>
-                I have a strong technical background across multiple domains:
-                <br></br>
-                •&nbsp&nbsp&nbspSAP ERP: Skilled in report generation, transaction creation, and system maintenance.<br></br>
-                •&nbsp&nbsp&nbspExcel: Advanced use of functions, Pivot tables, and data integration.<br></br>
-                •&nbsp&nbsp&nbspPython: Proficient in data manipulation, OOP, API integration, and database operations.<br></br>
-                •&nbsp&nbsp&nbspSQL Server: Experienced in database management, query writing, and data modeling.<br></br>
-                •&nbsp&nbsp&nbspWeb Development: Knowledgeable in HTML, CSS, JavaScript, and React for building dynamic, accessible websites.<br></br>
-                •&nbsp&nbsp&nbspJava: Basic syntax and command writing.<br></br>
-                <br></br>
-                My technical skills are paired with strong problem-solving abilities to deliver effective solutions.
+                I excel in time management and problem-solving, consistently balancing multiple responsibilities while maintaining a high level of productivity. My ability to prioritize tasks effectively allows me to meet deadlines and achieve goals efficiently, even under pressure. I approach challenges with a methodical mindset, breaking down complex problems into manageable steps. This enables me to identify root causes and implement practical, long-term solutions. My proactive and organized approach ensures that I not only resolve issues swiftly but also anticipate potential obstacles, allowing me to navigate my work with confidence and precision.
                 </p>
               </li>
             </ul>
