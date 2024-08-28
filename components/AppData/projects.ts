@@ -28,7 +28,7 @@ const PROJECTS_DATA = [
       'This course introduces the fundamental concepts of data structures and algorithms, essential for designing efficient software that can manage and process data effectively.',
     imageUrl: 'https://i.ibb.co/DfKWcxS/icon-algo-sosweet.gif',
     type: ['project', 'academic-courses'],
-    technologies: ['React', 'Redux Saga', 'Javascript', 'Firebase'],
+    technologies: ['Data Structures', 'Algorithms', 'Java'],
   },
 
   {
