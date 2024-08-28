@@ -39,27 +39,37 @@ const Projects = () => {
                 )}
               </MansoryLayout>
             </TabItems>
-            <TabItems label="Dev Tools">
+            <TabItems label="Python">
               <MansoryLayout>
                 {projectsData.map(
                   (item, index) =>
-                    item.type.includes('tools') && (
+                    item.type.includes('python') && (
                       <MansoryItem key={index} item={item} />
                     )
                 )}
               </MansoryLayout>
             </TabItems>
-            <TabItems label="Open Source">
+            <TabItems label="Web Developmant">
               <MansoryLayout>
                 {projectsData.map(
                   (item, index) =>
-                    item.type.includes('open-source') && (
+                    item.type.includes('web-developmant') && (
                       <MansoryItem key={index} item={item} />
                     )
                 )}
               </MansoryLayout>
             </TabItems>
-            <TabItems label="Designs" href="https://dribbble.com/codewonders" />
+            <TabItems label="Academic Courses">
+              <MansoryLayout>
+                {projectsData.map(
+                  (item, index) =>
+                    item.type.includes('academic-courses') && (
+                      <MansoryItem key={index} item={item} />
+                    )
+                )}
+              </MansoryLayout>
+            </TabItems>
+            
           </Tabs>
         </PageWrapper>
       </PageSection>
