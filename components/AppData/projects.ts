@@ -26,7 +26,7 @@ const PROJECTS_DATA = [
     github: 'https://github.com/eladtayarr/Algorithms',
     about:
       'This course introduces the fundamental concepts of data structures and algorithms, essential for designing efficient software that can manage and process data effectively.',
-    imageUrl: 'https://i.ibb.co/DfKWcxS/icon-algo-sosweet.gif',
+    imageUrl: 'https://i.ibb.co/tM8mXxt/Data-Structures-Algorithms.jpg',
     type: ['project', 'academic-courses'],
     technologies: ['Data Structures', 'Algorithms', 'Java'],
   },
