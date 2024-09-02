@@ -61,7 +61,7 @@ export default class MyDocument extends Document {
           <meta name="twitter:site" content="@code_wonders" />
           <meta
             name="twitter:image"
-            content="https://i.ibb.co/SxxqTRk/Mac-Book-Pro-16-10.png"
+            content="https://i.ibb.co/w7BBdrn/Back-Ground-Img.png"
           />
           <link
             rel="preload"
@@ -152,7 +152,7 @@ export default class MyDocument extends Document {
           <meta property="og:url" content="https://eladtayarr.com" />
           <meta
             property="og:image"
-            content="https://i.ibb.co/SxxqTRk/Mac-Book-Pro-16-10.png"
+            content="https://i.ibb.co/w7BBdrn/Back-Ground-Img.png"
           />
           <meta
             name="apple-mobile-web-app-title"

@@ -24,7 +24,7 @@ const Navbar = () => {
             <Link
               href="/"
               className="navbar-brand"
-              aria-label="Adenekan Wonderful Home"
+              aria-label="Elad Tayar Home"
               tabIndex={show ? -1 : undefined}
             >
               <Logo />
@@ -66,19 +66,7 @@ const Navbar = () => {
                     Home
                   </Link>
                 </li>
-                <li className="nav-item hover__bottom">
-                  <Link
-                    href="/"
-                    activeClassName="is-active"
-                    className="nav-link"
-                    id="cardHover"
-                    onClick={closeShow}
-                    aria-label="Go To About Page"
-                    title="Home"
-                  >
-                    Home
-                  </Link>
-                </li>
+                
                 <li className="nav-item hover__bottom">
                   <Link
                     href="/about"
