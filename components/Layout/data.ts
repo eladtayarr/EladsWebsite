@@ -30,16 +30,16 @@ export const actions = (theme: () => void) => [
   }),
 
   createScoutSection({
-    label: 'About Adenekan Wonderful',
+    label: 'About Elad Tayar',
 
     children: [
       createScoutAction({
-        label: 'About Adenekan Wonderful',
+        label: 'About Elad Tayar',
         href: '/about',
         keyboardShortcut: ['a'],
       }),
       createScoutAction({
-        label: "Adenekan Wonderful's Reads",
+        label: "Elad Tayar's Reads",
         href: '/about#reads',
       }),
       createScoutAction({
@@ -54,7 +54,7 @@ export const actions = (theme: () => void) => [
   }),
 
   createScoutSection({
-    label: 'BY Codewonders',
+    label: 'BY Elad Tayar',
 
     children: [
       createScoutPage({

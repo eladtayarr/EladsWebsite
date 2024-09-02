@@ -46,8 +46,8 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://linkedin.com/in/eladtayarr"
-          aria-label="Go To Adenekan Wonderful Linkedin Page"
+          href="https://linkedin.com/in/eladtayarr/"
+          aria-label="Go To Elad Tayar's Linkedin Page"
           title="Linkedin Page"
         >
           <Linkedin />
@@ -56,7 +56,7 @@ const FooterLink: React.FC<IFooterLink &
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/eladtayarr"
-          aria-label="Go To Adenekan Wonderful Github Page"
+          aria-label="Go To Elad Tayar's Github Page"
           title="Github Page"
         >
           <Github />
@@ -65,7 +65,7 @@ const FooterLink: React.FC<IFooterLink &
           target="_blank"
           rel="noopener noreferrer"
           href="https://instagram.com/eladtayar"
-          aria-label="Go To Adenekan Wonderful Instagram Page"
+          aria-label="Go To Elad Tayar's Instagram Page"
           title="Instagram Page"
         >
           <Instagram />
@@ -74,7 +74,7 @@ const FooterLink: React.FC<IFooterLink &
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.facebook.com/"
-          aria-label="Go To Adenekan Wonderful Facebook Page"
+          aria-label="Go To Elad Tayar's Facebook Page"
           title="Facebook Page"
         >
           <Facebook />
