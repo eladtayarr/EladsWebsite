@@ -45,32 +45,7 @@ const About = () => {
             <br></br>
             
 
-            <ul className="timeline">
-              <li className="mt-2">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open College Website Link"
-                  href="https://english.colman.ac.il/"
-                >
-                  Student of Information Systems Management{" "}
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open College website Link"
-                  id="cardHover"
-                  href="https://intl.colman.ac.il/"
-                  className="float-right"
-                >
-                  View College website
-                </a>
-                <p>
-                The Bachelor's degree in Information Systems Management (ISM) is a dual-major program that integrates technological expertise with managerial knowledge, preparing graduates for a variety of roles in the rapidly evolving digital job market. The curriculum offers hands-on experience through practical courses, industry collaborations, and a year-long practicum, where students tackle real-world challenges. With a strong foundation in programming, AI, data analysis, and business management, graduates are well-equipped for careers in fields such as software development, data analysis, and business intelligence, making them highly sought after in industries like high-tech, finance, and telecommunications.
-                </p>
-              </li>
-
-            </ul>
+            
           </article>
         </PageWrapper>
 
