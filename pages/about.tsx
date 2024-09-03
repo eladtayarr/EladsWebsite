@@ -43,6 +43,7 @@ const About = () => {
             </h6>
 
             <br></br>
+            
 
             <ul className="timeline">
               <li className="mt-2">
@@ -68,68 +69,7 @@ const About = () => {
                 The Bachelor's degree in Information Systems Management (ISM) is a dual-major program that integrates technological expertise with managerial knowledge, preparing graduates for a variety of roles in the rapidly evolving digital job market. The curriculum offers hands-on experience through practical courses, industry collaborations, and a year-long practicum, where students tackle real-world challenges. With a strong foundation in programming, AI, data analysis, and business management, graduates are well-equipped for careers in fields such as software development, data analysis, and business intelligence, making them highly sought after in industries like high-tech, finance, and telecommunications.
                 </p>
               </li>
-              
 
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Design Link"
-                  href="/projects"
-                >
-                  Programing{" "}
-                  <small>
-                    <Dribble />
-                  </small>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Design Link"
-                  id="cardHover"
-                  href="/projects"
-                  className="float-right"
-                >
-                  View Projects
-                </a>
-                <p>
-                My programming education was diverse and multifaceted. During my academic studies, I was introduced to various programming languages, which sparked my interest in the field, particularly in databases and development. Throughout my degree, I gained experience with languages such as Python, Java, Web Development (HTML/CSS/JS), and SQL.
-                <br></br><br></br>
-                Simultaneously, I pursued independent studies to deepen my understanding, driven by my passion for programming. I explored libraries like React, NumPy, and Flask in Python, and I learned about developing dynamic web pages as well as performing static calculations, which further expanded my knowledge.
-                <br></br><br></br>
-                Additionally, I have a strong affinity for design, and programming allows me to better express my creativity. This connection enables me to tailor the products I develop to reflect my personal vision and preferences.
-                </p>
-              </li>
-              
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Design Link"
-                  href="/projects"
-                >
-                  Data Analysis{" "}
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Design Link"
-                  id="cardHover"
-                  href="/projects"
-                  className="float-right"
-                >
-                  View Projects
-                </a>
-                <p>
-                I am a passionate data analyst with a strong foundation in both technical and analytical skills, honed through a combination of academic studies and hands-on experience. My background includes extensive work with data collection, cleaning, and analysis using a variety of tools and programming languages, such as Python, SQL, and Excel. I have a keen eye for detail and a deep understanding of statistical methods, which allows me to uncover insights and trends from complex datasets.
-                <br></br><br></br>
-                Throughout my academic career, I have developed a proficiency in using data visualization tools, such as Tableau and Power BI, to present data-driven insights in a clear and compelling manner. My ability to transform raw data into actionable insights has supported decision-making processes and driven business strategies. Additionally, I have experience working on projects that involve big data analytics, predictive modeling, and machine learning, further enhancing my analytical capabilities.
-                <br></br><br></br>
-                My approach to data analysis is both methodical and creative, combining technical expertise with a deep curiosity to solve problems and optimize processes. I am committed to continuous learning and staying updated with the latest industry trends and tools, ensuring that my skills remain relevant and impactful in the ever-evolving field of data analysis.
-                </p>
-              </li>
-
-              
             </ul>
           </article>
         </PageWrapper>
@@ -141,28 +81,36 @@ const About = () => {
           <article>
             <h4>My Reads.</h4>
             <ul className="timeline">
-
-            
-
               <li>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   id="cardHover"
-                  aria-label="Open Human Centered Design 101"
-                  href="https://www.plusacumen.org/courses/introduction-human-centered-design"
+                  aria-label="Open College website Link"
+                  href="https://intl.colman.ac.il/"
                 >
                   B.A. Information Systems Management <small>The College of Management Academic Studies</small>
                 </a>
                 <a className="float-right" tabIndex={-1}>
                   <Date /> <b>2022 - Today</b>
+                  <br></br>
+                  <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open College website Link"
+                  id="cardHover"
+                  href="https://intl.colman.ac.il/"
+                  className="float-right"
+                >
+                  View College website
+                </a>
                 </a>
                 <p>
-                ▸ &nbsp;&nbsp;&nbsp;Secound Year Student of Dual-Major in Information Systems Management.
+                Secound Year Student of Dual-Major in Information Systems Management.
                 <br></br>
-                ▸ &nbsp;&nbsp;&nbsp;GPA: 89
+                GPA: 89
                 <br></br>
-                ▸ &nbsp;&nbsp;&nbsp;Focused on application development, data structures, algorithms, and data analysis. Additionally, the degree courses focus on management, accounting, statistics, finance, economics, etc.
+                The Bachelor's degree in Information Systems Management (ISM) is a dual-major program that integrates technological expertise with managerial knowledge, preparing graduates for a variety of roles in the rapidly evolving digital job market. The curriculum offers hands-on experience through practical courses, industry collaborations, and a year-long practicum, where students tackle real-world challenges. With a strong foundation in programming, AI, data analysis, and business management, graduates are well-equipped for careers in fields such as software development, data analysis, and business intelligence, making them highly sought after in industries like high-tech, finance, and telecommunications.
                 </p>
               </li>
 
@@ -201,7 +149,7 @@ const About = () => {
                   Sales & Shift Manager <small>Hugo Boss</small>
                 </a>
                 <a className="float-right" tabIndex={-1}>
-                  <Date /> <b>2019 - 2022</b>
+                  <Date /> <b>Dec 2019 - Jun 2022</b>
                 </a>
                 <p>
                 As a Shift Manager at Hugo Boss, I was instrumental in driving the store's success by consistently meeting and exceeding sales targets, earning the highest performance statistics in the network. My strong leadership skills led to a promotion to Shift Manager after just a year and a half, where I took on greater responsibilities in managing store operations and leading a dynamic team.
@@ -220,12 +168,12 @@ const About = () => {
                   rel="noopener noreferrer"
                   id="cardHover"
                   aria-label="Open Link Adaptive Leadership"
-                  href="https://www.edx.org/course/adaptive-leadership-in-development"
+                  href="https://www.mitgaisim.idf.il/%D7%AA%D7%A4%D7%A7%D7%99%D7%93%D7%99%D7%9D/%D7%9E%D7%A9%D7%A7%D7%99%D7%AA-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C-%D7%9E%D7%A2%D7%A8%D7%9B%D7%95%D7%AA-%D7%9E%D7%A9%D7%90%D7%91%D7%99-%D7%90%D7%A0%D7%95%D7%A9/"
                 >
                   Information Systems NCO <small>Israel Defense Forces</small>
                 </a>
                 <a className="float-right" tabIndex={-1}>
-                  <Date /> <b>2017 - 2019</b>
+                  <Date /> <b>Mar 2017 - Nov 2019</b>
                 </a>
                 <p>
                 During my military service in the Israel Defense Forces (IDF), I served as an Information Systems Non-Commissioned Officer (NCO) within the Human Resources Branch. Initially responsible for welfare tasks, such as managing housing for lone soldiers and administering special allowances, I was later promoted to the office of the Head of the Personnel Directorate to focus on information systems management.
@@ -277,6 +225,60 @@ const About = () => {
                 My technical skills are paired with strong problem-solving abilities to deliver effective solutions.
                 </p>
               </li>
+                            
+
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Design Link"
+                  href="/projects"
+                >
+                  Programing{" "}
+                  <small>
+                    <Dribble />
+                  </small>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Design Link"
+                  id="cardHover"
+                  href="/projects"
+                  className="float-right"
+                >
+                  View Projects
+                </a>
+                <p>
+                My programming education was diverse, blending academic studies with independent exploration. Throughout my degree, I gained experience in Python, Java, web development (HTML/CSS/JS), and SQL, with a particular interest in databases and development. Passionate about programming, I delved into libraries like React, NumPy, and Flask, enhancing my skills in dynamic web development and static calculations. Additionally, my affinity for design fuels my creativity in programming, allowing me to craft products that reflect my personal vision and preferences.
+                </p>
+              </li>
+              
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Design Link"
+                  href="/projects"
+                >
+                  Data Analysis{" "}
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Design Link"
+                  id="cardHover"
+                  href="/projects"
+                  className="float-right"
+                >
+                  View Projects
+                </a>
+                <p>
+                I am a passionate data analyst with a solid foundation in technical and analytical skills, developed through academic studies and hands-on experience. Proficient in Python, SQL, and Excel, I excel in data collection, cleaning, and analysis, uncovering insights from complex datasets. My expertise in data visualization tools like Tableau and Power BI allows me to present clear, actionable insights that drive business strategies. Additionally, my experience with big data analytics, predictive modeling, and machine learning enhances my analytical capabilities, enabling me to solve problems creatively and optimize processes effectively. I am dedicated to continuous learning, ensuring my skills stay relevant in the dynamic field of data analysis.
+                </p>
+              </li>
+
+              
 
               <li>
                 <a
@@ -368,6 +370,7 @@ const PageSection = styled.div`
       height: 100%;
       z-index: 400;
     }
+    
     li {
       margin: 3rem 0;
       padding-left: 20px;

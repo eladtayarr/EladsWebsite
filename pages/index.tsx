@@ -32,26 +32,32 @@ const Home = () => {
             </motion.h1>
             <motion.p {...getTransitions(0.3)}>
               {' '}
-              If you are looking to learn more
+              I am an ambitious second-year student pursuing a Bachelor's Degree in Information Systems Management at the College of Management in Israel.  I am passionate 
              {' '}
               <Link href="/about" aria-label="Go to About Page">
                 About
-              </Link>{' '}
-              my professional background, I am currently a second-year student pursuing a Bachelor’s degree in Information Systems Management with a double major in Business Administration.{' '}
-            </motion.p>
-            <motion.p {...getTransitions(0.5)}>
-              My{' '}
+              </Link>
+              {' '}
+              contributing to impactful projects, continuously seeking opportunities to expand my expertise. My 
+              {' '}
+
               <Link href="/resume" aria-label="Check out my Resume">
                 Resume
-              </Link>{' '}
-              highlights my technical skills in areas such as data analysis, databases, development, and system maintenance. I have actively contributed to various{' '}
+              </Link>
+              {' '}
+              highlights my strong technical skills, academic excellence, and practical experience in data analysis and system management.
+              {' '}
+              </motion.p>
+              <motion.p {...getTransitions(0.5)}>
+              Throughout my career, I've created various 
+              {' '}
               <Link
                 href="/projects"
                 aria-label="Go to Projects Page And Check What I Read"
               >
                 Projects
               </Link>{' '}
-              during my studies and work experience, including a significant research project as part of an Honors Program in collaboration with Bremen University. To discuss potential opportunities, please feel free to{' '}
+              during my studies and work experience, including a significant research project as part of an Honors Program in collaboration with Bremen University. <br></br>To discuss potential opportunities, please feel free to{' '}
               <Link href="/contact" aria-label="Go to Contact Page">
                 Contact Me
               </Link>
