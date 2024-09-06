@@ -4,7 +4,7 @@
   "private": true,
   "repository": "git://github.com/eladtayarr/EladsWebsite.git",
   "description": "Elad Tayar's Website",
-  "author": "Elad Tayar <eladt1010@gmail.com> (https://www.eladtayarr.com)",
+  "author": "Elad Tayar <elad.tayar@aol.com> (https://www.eladtayarr.com)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
