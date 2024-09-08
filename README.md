@@ -1,5 +1,7 @@
 # Elad Tayar - Personal Website 👨🏼‍💻
 
+https://github.com/user-attachments/assets/3c24b6f0-bceb-4cd3-8c02-9871c31eac88
+
 This site serves as a portfolio to showcase my skills, experience, and projects in Information Systems Management, Software Development, and beyond.
 
 ## Website URL 🌐
