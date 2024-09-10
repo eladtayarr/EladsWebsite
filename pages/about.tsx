@@ -25,23 +25,16 @@ const About = () => {
           <h1 className="intro__text">About Me.</h1> <br />
           <article>
             <h6>
-              I'm Elad Tayar, a second-year Information Systems Management
-              student at the College of Management Academic Studies. My studies
-              combine Business Administration with a focus on application
-              development, data analysis, and management. I've gained practical
-              experience through an Honors Program with the University of
-              Bremen, enhancing my skills in research and cross-cultural
-              communication.
+            I’m Elad Tayar, currently in the second year of a double-major degree in Information Systems and Management at the College of Management Academic Studies.
             </h6>
 
             <h6>
-              Technically skilled in tools like SAP ERP, Python, SQL, and more,
-              I've also led teams and managed operations as a Shift Manager at
-              Hugo Boss. My military service further sharpened my data
-              management and leadership abilities. I'm eager to apply my skills
-              in data analysis, development, and business management.
+            I'm highly motivated, assertive, with strong technical skills, quick learning abilities, spatial awareness, the ability to work well in a team, and excellent communication skills in both Hebrew and English.
             </h6>
 
+            <h6>
+            Currently I'm seeking a part-time position, available 3 days a week, to gain industry experience as a student.
+            </h6>
             <br></br>
             
 
@@ -54,7 +47,7 @@ const About = () => {
           aria-label="You are now in my musical playlist section"
         >
           <article>
-            <h4>My Reads.</h4>
+            <h4>My Timeline.</h4>
             <ul className="timeline">
               <li>
                 <a
@@ -81,16 +74,18 @@ const About = () => {
                 </a>
                 </a>
                 <p>
-                Secound Year Student of Dual-Major in Information Systems Management.
+                A Dual-Major combining Information Systems & Business Administration.
                 <br></br>
                 GPA: 89
                 <br></br>
-                The Bachelor's degree in Information Systems Management (ISM) is a dual-major program that integrates technological expertise with managerial knowledge, preparing graduates for a variety of roles in the rapidly evolving digital job market. The curriculum offers hands-on experience through practical courses, industry collaborations, and a year-long practicum, where students tackle real-world challenges. With a strong foundation in programming, AI, data analysis, and business management, graduates are well-equipped for careers in fields such as software development, data analysis, and business intelligence, making them highly sought after in industries like high-tech, finance, and telecommunications.
+                The curriculum offers practical experience through courses in the field of Information Systems, such as Data Structures and Algorithms, Object-Oriented Development, Web Development, Data Mining and Machine Learning, Data Analysis, and more. Throughout the degree, many programming and development languages were learned, including Python, HTML/CSS/JavaScript, Java, SQL Server, Excel, and others.
+                <br></br>
+                Additionally, as part of the program, courses in Business Administration, such as Statistics, Finance, Accounting, Economics, and more, are also studied.
                 </p>
               </li>
 
               <li>
-                <Link href="/projects" aria-label="Open Products Page">
+                <Link href="https://github.com/eladtayarr/Honors-Program/tree/main" aria-label="Open Products Page">
                 Honors Program{" "}
                   <small>
                     <Product />
@@ -98,18 +93,20 @@ const About = () => {
                 </Link>
                 <a className="float-right" tabIndex={-1}>
                   <Date /> <b>Feb-Jul 2024</b>
+                  <br></br>
+                  <Link
+                  href="https://github.com/eladtayarr/Honors-Program/tree/main"
+                  aria-label="Open Products Page"
+                  id="cardHover"
+                  className="float-right"
+                    >
+                  View The Project
+                  </Link>
                 </a>
                 
                 <p>
                 During my second year, I participated in the honors program for high-achieving students, which exposed me to academic research and international collaboration. Our research, in partnership with HHN University in Germany, focused on the impact of uncertainty, variation, and diversity in large organizations, using XMCyber as a case study. I was responsible for designing the questionnaire, organizing interview data, and presenting our findings. Our work received a score of 90 and excellent feedback from the program's professors.
-                <Link
-                  href="/projects"
-                  aria-label="Open Products Page"
-                  id="cardHover"
-                  className="float-right"
-                >
-                  View The Project
-                </Link>
+                
                 </p>
               </li>
 
@@ -169,7 +166,7 @@ const About = () => {
           aria-label="You are now in my musical playlist section"
         >
           <article>
-            <h4>My Skills.</h4>
+            <h4>My Technical Skills.</h4>
             <ul className="timeline">
               <li>
                 <a
@@ -177,7 +174,7 @@ const About = () => {
                   rel="noopener noreferrer"
                   aria-label="Open Design Link"
                 >
-                  Technical Aptitude{" "}
+                  Python{" "}
                 </a>
                 <a
                   target="_blank"
@@ -188,16 +185,7 @@ const About = () => {
                 >
                 </a>
                 <p>
-                I have a strong technical background across multiple domains:
-                <br></br>
-                •&nbsp;&nbsp;&nbsp;SAP ERP: Skilled in report generation, transaction creation, and system maintenance.<br></br>
-                •&nbsp;&nbsp;&nbsp;Excel: Advanced use of functions, Pivot tables, and data integration.<br></br>
-                •&nbsp;&nbsp;&nbsp;Python: Proficient in data manipulation, OOP, API integration, and database operations.<br></br>
-                •&nbsp;&nbsp;&nbsp;SQL Server: Experienced in database management, query writing, and data modeling.<br></br>
-                •&nbsp;&nbsp;&nbsp;Web Development: Knowledgeable in HTML, CSS, JavaScript, and React for building dynamic, accessible websites.<br></br>
-                •&nbsp;&nbsp;&nbsp;Java: Basic syntax and command writing.<br></br>
-                <br></br>
-                My technical skills are paired with strong problem-solving abilities to deliver effective solutions.
+                During my degree studies, I gained significant programming knowledge using Python. In addition, I invested heavily in independent learning to improve and strengthen my technical abilities. I am well-versed in the Pandas and NumPy libraries, knowledgeable in interacting with APIs, and skilled in linking and working with databases such as MongoDB, SQLite, and SQLAlchemy. I am also familiar with creating graphical user interfaces using Tkinter and PyQt6.
                 </p>
               </li>
                             
@@ -209,23 +197,22 @@ const About = () => {
                   aria-label="Open Design Link"
                   href="/projects"
                 >
-                  Programing{" "}
-                  <small>
-                    <Dribble />
-                  </small>
+                  HTML, CSS, JavaScript{" "}
                 </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Design Link"
-                  id="cardHover"
-                  href="/projects"
-                  className="float-right"
-                >
-                  View Projects
-                </a>
+                
+                <br></br>
+                <p>The combination of my knowledge in HTML, CSS, and JavaScript enables me to develop complete and interactive web pages that are accessible to all users and compatible with a wide variety of devices and browsers.</p>
+                <h6>HTML5</h6>
                 <p>
-                My programming education was diverse, blending academic studies with independent exploration. Throughout my degree, I gained experience in Python, Java, web development (HTML/CSS/JS), and SQL, with a particular interest in databases and development. Passionate about programming, I delved into libraries like React, NumPy, and Flask, enhancing my skills in dynamic web development and static calculations. Additionally, my affinity for design fuels my creativity in programming, allowing me to craft products that reflect my personal vision and preferences.
+                Proficient in building clear, organized, and accessible web pages, using appropriate tags to create headings, tables, forms, links, and images. I also understand the importance of accessibility and ensure the use of proper tags to provide a positive user experience for all visitors.
+                </p>
+                <h6>CSS3</h6>
+                <p>
+                Skilled in using CSS to design and build attractive, intuitive user interfaces. My expertise includes advanced page design, such as layouts, typography, color schemes, background images, and the addition of animations and visual effects.
+                </p>
+                <h6>JavaScript</h6>
+                <p>
+                Well-versed in developing interactive features on web pages, such as dynamic forms, drop-down menus, and user-triggered actions (e.g., button clicks or mouse movements).
                 </p>
               </li>
               
@@ -236,66 +223,63 @@ const About = () => {
                   aria-label="Open Design Link"
                   href="/projects"
                 >
-                  Data Analysis{" "}
+                  React.js, React.py & Node.js {" "}
                 </a>
+                <p>
+                I have working knowledge of React and Node.js. As part of my expertise, I am familiar with the logical and modular structure of components, inheritance between files, building dummy pages, using React Router to navigate between application pages , I know and know how to work with different databases, such as MongoDB and SQL, to build flexible and scalable systems, and integrating third-party libraries to enhance performance and display.
+                </p>
+              </li>
+
+              <li>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Open Design Link"
-                  id="cardHover"
                   href="/projects"
-                  className="float-right"
                 >
-                  View Projects
+                  SQL Server {" "}
                 </a>
                 <p>
-                I am a passionate data analyst with a solid foundation in technical and analytical skills, developed through academic studies and hands-on experience. Proficient in Python, SQL, and Excel, I excel in data collection, cleaning, and analysis, uncovering insights from complex datasets. My expertise in data visualization tools like Tableau and Power BI allows me to present clear, actionable insights that drive business strategies. Additionally, my experience with big data analytics, predictive modeling, and machine learning enhances my analytical capabilities, enabling me to solve problems creatively and optimize processes effectively. I am dedicated to continuous learning, ensuring my skills stay relevant in the dynamic field of data analysis.
+                As part of my expertise, I am skilled in writing complex SQL queries for data retrieval, updating, and performing advanced analyses on large databases. I use SQL Server to optimize queries, improving performance and ensuring fast data access. Additionally, I have experience in creating data dashboards that enable real-time visual analysis and data presentation. I am proficient in setting up and implementing dashboards that provide relevant business insights and contribute to improving organizational workflows.
+                </p>
+              </li>
+              
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Design Link"
+                  href="/projects"
+                >
+                Java {" "}
+                </a>
+                <p>
+                Basic understanding of Java syntax and can write simple commands in the language. I am familiar with the principles of object-oriented programming (OOP) in Java, including the creation and use of classes, objects, methods, and fields. Additionally, I have experience working with control structures such as loops, conditional statements, and variables, as well as writing basic functions for computational operations and data manipulation. My knowledge also extends to working with various data types and understanding fundamental concepts like inheritance and polymorphism.
+                </p>
+              </li>
+
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Design Link"
+                >
+                  Microsoft Office{" "}
+                </a>
+                <br></br>
+                <br></br>
+                <h6>Excel</h6>
+                <p>
+                I work with advanced functions for data management and analysis. I am skilled in building complex spreadsheets and using functions such as VLOOKUP, IF, and SUMIFS to streamline workflows and create customized reports. I also have experience with text and data functions for information analysis, including CONCATENATE, TEXT, LEFT, and RIGHT. Additionally, I am proficient in creating Pivot Tables to analyze large datasets, generating charts and diagrams for visual insights, and using Power Query to automate data cleaning processes and import data from external sources.
+                </p>
+                <br></br>
+                <h6>PowerPoint</h6>
+                <p>
+                I have experience in creating professional and impactful presentations. I am skilled in building effective presentations in terms of both content and design, tailored to various audiences. I am proficient in using design patterns, adding animations, and applying transitions to maintain audience engagement. Additionally, I utilize advanced graphic tools to create diagrams, graphs, and images for clear and persuasive data presentation. I have used PowerPoint to present academic projects, data analysis results, and business plans, customizing the design and structure to meet the objectives and needs of each target audience.
                 </p>
               </li>
 
               
-
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Design Link"
-                >
-                  Collaborative and Teamwork{" "}
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Design Link"
-                  id="cardHover"
-                  className="float-right"
-                >
-                </a>
-                <p>
-                I excel in collaborative environments, valuing open communication and mutual respect. My experience in diverse teams has taught me the importance of contributing my strengths while supporting others. Whether leading initiatives or being a reliable team member, I focus on fostering innovation and delivering high-quality results. I thrive under pressure, remain proactive, and am committed to creating a positive, inclusive atmosphere where ideas can flourish.
-                </p>
-              </li>
-
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Design Link"
-                >
-                  Time Management & Problem Solving{" "}
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Design Link"
-                  id="cardHover"
-                  className="float-right"
-                >
-                </a>
-                <p>
-                I excel in time management and problem-solving, consistently balancing multiple responsibilities while maintaining a high level of productivity. My ability to prioritize tasks effectively allows me to meet deadlines and achieve goals efficiently, even under pressure. I approach challenges with a methodical mindset, breaking down complex problems into manageable steps. This enables me to identify root causes and implement practical, long-term solutions. My proactive and organized approach ensures that I not only resolve issues swiftly but also anticipate potential obstacles, allowing me to navigate my work with confidence and precision.
-                </p>
-              </li>
             </ul>
           </article>
         </PageWrapper>
