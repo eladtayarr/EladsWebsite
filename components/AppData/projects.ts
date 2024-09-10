@@ -35,7 +35,7 @@ const PROJECTS_DATA = [
     title: 'Honors Program',
     description: 'The course engages students with unique content, meetings with key academic and industry figures, and international collaborative research.',
     about:
-      "The Honors Program is a distinguished course designed to provide students with unique content and experiences through interactions with key figures from academia and industry, as well as engaging in cutting-edge research..",
+      "The Honors Program is a distinguished course designed to provide students with unique content and experiences through interactions with key figures from academia and industry, as well as engaging in cutting-edge research.",
     imageUrl: 'https://i.ibb.co/8P9RzpG/Honors-Program.gif',
     github: 'https://github.com/eladtayarr/Honors-Program',
     type: ['academic-courses', 'project'],
@@ -45,13 +45,13 @@ const PROJECTS_DATA = [
   {
     title: 'Object-Oriented-Programming',
     description:
-      'Building a calculator in Python by object-oriented programming',
+      'Building a calculator in Python by Object-Oriented Programming',
     about:
-      "NEX builds new tools for digital media creation. We’re on a mission to augment human storytelling-- try our newest AI tools now!",
-    link: 'https://nex.art',
+      "In an object-oriented programming course, I completed a project in which I was tasked with building a calculator using OOP principles. The code was implemented in Python, incorporating multiple libraries and display elements to enhance functionality and user interaction",
+    github: 'https://github.com/eladtayarr/Calculator-OOP',
     imageUrl: 'https://i.ibb.co/YkPHfXS/Calc.gif',
     type: ['academic-courses', 'python', 'project'],
-    technologies: ['Python', 'Javascript', 'GUI', 'Object-Oriented-Programming (OOP)', 'Flask'],
+    technologies: ['Python', 'GUI', 'Object-Oriented-Programming (OOP)', 'Flask', 'TKinter', 'PyQt6', 'API'],
   },
 ];
 
