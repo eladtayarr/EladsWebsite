@@ -1,9 +1,9 @@
 /* -------------------------------------------------------------------------- */
 /*                            External Dependencies                           */
 /* -------------------------------------------------------------------------- */
-import Document, { Head, Main, NextScript } from 'next/document';
-import React from 'react';
-import { ServerStyleSheet } from 'styled-components';
+import Document, { Head, Main, NextScript } from "next/document";
+import React from "react";
+import { ServerStyleSheet } from "styled-components";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -61,7 +61,7 @@ export default class MyDocument extends Document {
           <meta name="twitter:site" content="@code_wonders" />
           <meta
             name="twitter:image"
-            content="https://i.ibb.co/w7BBdrn/Back-Ground-Img.png"
+            content="https://i.ibb.co/r2NSH90/Website-Image.jpg"
           />
           <link
             rel="preload"
@@ -152,12 +152,9 @@ export default class MyDocument extends Document {
           <meta property="og:url" content="https://eladtayarr.com/" />
           <meta
             property="og:image"
-            content="https://i.ibb.co/w7BBdrn/Back-Ground-Img.png"
+            content="https://i.ibb.co/r2NSH90/Website-Image.jpg"
           />
-          <meta
-            name="apple-mobile-web-app-title"
-            content="Elad Tayar"
-          />
+          <meta name="apple-mobile-web-app-title" content="Elad Tayar" />
           <meta name="next-head-count" content="21" />
           <style
             // eslint-disable-next-line react/no-danger
