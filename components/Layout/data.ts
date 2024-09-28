@@ -47,7 +47,7 @@ export const actions = (theme: () => void) => [
         href: '/about#playlist',
       }),
       createScoutAction({
-        label: "Adenekan's Lens",
+        label: "Elad's Lens",
         href: '/about#lens',
       }),
     ],

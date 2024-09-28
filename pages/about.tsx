@@ -24,10 +24,10 @@ const About = () => {
         >
           <h1 className="intro__text">About Me.</h1> <br />
           <article>
-            <h6>
-            I’m Elad Tayar, currently in the second year of a double-major degree in Information Systems and Management at the College of Management Academic Studies.
-            </h6>
-
+            <h5>
+            I’m Elad Tayar, currently in the third year of a double-major degree in Information Systems and Management at the College of Management Academic Studies.
+            </h5>
+            
             <h6>
             I'm highly motivated, assertive, with strong technical skills, quick learning abilities, spatial awareness, the ability to work well in a team, and excellent communication skills in both Hebrew and English.
             </h6>
@@ -74,7 +74,7 @@ const About = () => {
                 </a>
                 </a>
                 <p>
-                A Dual-Major combining Information Systems & Business Administration.
+                A Dual-Major combining Information Systems & Management.
                 <br></br>
                 GPA: 89
                 <br></br>
@@ -105,7 +105,7 @@ const About = () => {
                 </a>
                 
                 <p>
-                During my second year, I participated in the honors program for high-achieving students, which exposed me to academic research and international collaboration. Our research, in partnership with HHN University in Germany, focused on the impact of uncertainty, variation, and diversity in large organizations, using XMCyber as a case study. I was responsible for designing the questionnaire, organizing interview data, and presenting our findings. Our work received a score of 90 and excellent feedback from the program's professors.
+                During my third year, I participated in the honors program for high-achieving students, which exposed me to academic research and international collaboration. Our research, in partnership with HHN University in Germany, focused on the impact of uncertainty, variation, and diversity in large organizations, using XMCyber as a case study. I was responsible for designing the questionnaire, organizing interview data, and presenting our findings. Our work received a score of 90 and excellent feedback from the program's professors.
                 
                 </p>
               </li>
@@ -148,9 +148,13 @@ const About = () => {
                   <Date /> <b>Mar 2017 - Nov 2019</b>
                 </a>
                 <p>
-                During my military service in the Israel Defense Forces (IDF), I served as an Information Systems Non-Commissioned Officer (NCO) within the Human Resources Branch. Initially responsible for welfare tasks, such as managing housing for lone soldiers and administering special allowances, I was later promoted to the office of the Head of the Personnel Directorate to focus on information systems management.
+                During my military service in the Israel Defense Forces (IDF), I served as an Information Systems Non-Commissioned Officer (NCO) within the Human Resources Branch. 
+                Initially responsible for welfare tasks, such as managing housing for lone soldiers and administering special allowances, I was later promoted to the office of the Head of the Personnel Directorate to focus on information systems management.
                 <br></br><br></br>
-                In this role, I had access to classified military data, where I was responsible for generating transactions, creating reports, and conducting data analysis. I worked extensively with SAP ERP and the "Discoverer" system to automate report generation and manage data effectively. My role required significant interaction with senior military personnel, contributing to various high-impact projects, including the Stars Project, which provided financial assistance to IDF soldiers.
+                In this role, I had access to classified military data, where I was responsible for generating transactions with ABAP queries, creating and organization reports, and conducting data analysis. 
+                I worked extensively with SAP ERP and the Discoverer Viewer Oracle system to automate report generation and manage data effectively. 
+                My role required significant interaction with senior military personnel, contributing to various high-impact projects, including the Increasing rent for single soldiers by 23%, and issuing holiday vouchers for single soldiers and soldiers with financial difficulties. 
+                The work was carried out in front of senior military officials and officials in the field.
                 <br></br><br></br>
                 This experience honed my technical skills in data management, report generation, and system maintenance, while also enhancing my ability to work under pressure and maintain strict confidentiality with sensitive information.
                 {" "}
@@ -223,10 +227,11 @@ const About = () => {
                   aria-label="Open Design Link"
                   href="/projects"
                 >
-                  React.js, React.py & Node.js {" "}
+                  React.js/py, Node.js & TypeScript {" "}
                 </a>
                 <p>
-                I have working knowledge of React and Node.js. As part of my expertise, I am familiar with the logical and modular structure of components, inheritance between files, building dummy pages, using React Router to navigate between application pages , I know and know how to work with different databases, such as MongoDB and SQL, to build flexible and scalable systems, and integrating third-party libraries to enhance performance and display.
+                I have working knowledge of React and Node.js. 
+                As part of my expertise, I am familiar with the logical and modular structure of components, inheritance between files, building dummy pages, using React Router to navigate between application pages , I know and know how to work with different databases, such as MongoDB and SQL, to build flexible and scalable systems, and integrating third-party libraries to enhance performance and display.
                 </p>
               </li>
 
