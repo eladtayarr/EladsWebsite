@@ -31,3 +31,8 @@ This website provides an overview of my professional journey, including:
 - **Contact Form:** [Formspree](https://formspree.io/)
 - **Domain Provider:** [GoDaddy](https://www.godaddy.com/)
 - **Cloud Infrastructure:** [Vercel](https://vercel.com/)
+
+## Running the website:
+ Local: http://localhost:3000
+```bash
+npm dev run
