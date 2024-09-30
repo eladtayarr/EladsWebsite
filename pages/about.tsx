@@ -189,7 +189,7 @@ const About = () => {
                 >
                 </a>
                 <p>
-                During my degree studies, I gained significant programming knowledge using Python. In addition, I invested heavily in independent learning to improve and strengthen my technical abilities. I am well-versed in the Pandas and NumPy libraries, knowledgeable in interacting with APIs, and skilled in linking and working with databases such as MongoDB, SQLite, and SQLAlchemy. I am also familiar with creating graphical user interfaces using Tkinter and PyQt6.
+                During my degree studies, I acquired significant and extensive knowledge of programming in Python. Additionally, I invested heavily in independent learning to enhance and strengthen my technical abilities. I am familiar with the Pandas and NumPy libraries and know how to create visual displays of data analysis using CSV files. I am proficient in sending GET and POST commands using the HTTP protocol, interacting with API interfaces, and working with SQL-based databases such as SQLite and SQLAlchemy, as well as NoSQL databases like MongoDB. Furthermore, I am also experienced in creating GUIs using Tkinter and PyQt6.
                 </p>
               </li>
                             
