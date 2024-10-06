@@ -151,7 +151,7 @@ const About = () => {
                 During my military service in the Israel Defense Forces (IDF), I served as an Information Systems Non-Commissioned Officer (NCO) within the Human Resources Branch. 
                 Initially responsible for welfare tasks, such as managing housing for lone soldiers and administering special allowances, I was later promoted to the office of the Head of the Personnel Directorate to focus on information systems management.
                 <br></br><br></br>
-                In this role, I had access to classified military data, where I was responsible for generating transactions with ABAP queries, creating and organization reports, and conducting data analysis. 
+                In this role, I was responsible for generating transactions with ABAP queries, creating and organization reports, and conducting data analysis. 
                 I worked extensively with SAP ERP and the Discoverer Viewer Oracle system to automate report generation and manage data effectively. 
                 My role required significant interaction with senior military personnel, contributing to various high-impact projects, including the Increasing rent for single soldiers by 23%, and issuing holiday vouchers for single soldiers and soldiers with financial difficulties. 
                 The work was carried out in front of senior military officials and officials in the field.
